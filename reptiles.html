@@ -26,25 +26,34 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" aria-current="page">Home <span
-                            class="visually-hidden">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Login</a>
+                    <a class="nav-link" href="#">Inicio</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        aria-haspopup="true" aria-expanded="false">Selecciona categoría</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
+                        <a class="dropdown-item" href="#">Anfibios</a>
+                        <a class="dropdown-item" href="#">Aves</a>
+                        <a class="dropdown-item" href="#">Mamíferos</a>
+                        <a class="dropdown-item" href="#">Peces</a>
+                        <a class="dropdown-item" href="#">Reptiles</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalregister">Regístrate<span
+                            class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Inicia sesión</a>
+                </li>
+
             </ul>
         </div>
 
     </nav>
+    
     <div class="text-center">
         <h1>Catálogo de animales</h1>
     </div>
@@ -54,7 +63,7 @@
 
     <div class="container">
 
-        dlfdklfdslfkdlf
+        
         <div class="row justify-content-start">
             <div class="col-xl-3 col-md-4 col-sm-6">
                 <div class="card">
@@ -94,6 +103,59 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="modallogin" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+
+
+                <div class="modal-body bg-claro">
+                    <h2 class="modal-title text-center pb-2 " id="modalTitleId">INICIA SESIÓN</h2>
+                    <div class="modal-content p-3" >
+                        <div class="mb-3">
+                            <label for="" class="form-label">Usuario</label>
+                            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                                >
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" name="" id="" placeholder="">
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"
+                                data-bs-dismiss="modal">Entrar</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+
+    </script>
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
 
 
     

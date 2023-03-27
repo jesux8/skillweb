@@ -2,10 +2,27 @@
     background-color: #e5fae9;
 }
 
-.bg-claro{
-    background-color: #f5f9fc;
+.bg_card{
+    background-color: green;
+    color: white;
 }
+.card{
+    border-color:rgb(245, 249, 252) ;
+ }
+h5{
+   color: white;
+   background-color: green;
+ }    
+body{
+   background-color: rgb(245, 249, 252);
+ }
+ .card{
+   background-color: rgb(245, 249, 252);
+ }
+ a{
+    text-decoration: none;  
+ }
 
-.btn-verde{
-    background-color: #27a844;
-}
+ .bg-verde{
+    background-color:#e5fae9;
+ }

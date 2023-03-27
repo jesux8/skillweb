@@ -26,3 +26,8 @@ body{
  .bg-verde{
     background-color:#e5fae9;
  }
+
+ .accordion h2{
+    font-weight: bold;
+    color: #306acb;
+ }
